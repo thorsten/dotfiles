@@ -90,5 +90,9 @@ brew install zopfli
 # installation method.
 brew install node
 
+# Vagrant related stuff
+brew tap homebrew/completions
+brew install vagrant-completion
+
 # Remove outdated versions from the cellar.
 brew cleanup
