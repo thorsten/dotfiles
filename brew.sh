@@ -73,6 +73,7 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
+brew install dnsmasq
 brew install git
 brew install imagemagick --with-webp
 brew install lua
