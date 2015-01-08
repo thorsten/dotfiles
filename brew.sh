@@ -72,7 +72,6 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install imagemagick --with-webp
 brew install lua
@@ -93,6 +92,10 @@ brew install node
 # Vagrant related stuff
 brew tap homebrew/completions
 brew install vagrant-completion
+
+# tldr pages - Simplified and community-driven man pages
+brew tap tldr-pages/tldr
+brew install tldr
 
 # Remove outdated versions from the cellar.
 brew cleanup
