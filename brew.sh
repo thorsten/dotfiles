@@ -106,5 +106,15 @@ brew install vagrant-completion
 brew tap tldr-pages/tldr
 brew install tldr
 
+## Web development stuff
+brew install selenium-server-standalone
+brew install phantomjs
+brew install casperjs
+brew install mysql
+
+# Java development stuff
+brew install tomcat
+brew install maven
+
 # Remove outdated versions from the cellar.
 brew cleanup
