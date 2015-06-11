@@ -101,6 +101,8 @@ brew install node
 # Vagrant related stuff
 brew tap homebrew/completions
 brew install vagrant-completion
+brew tap homebrew/binary
+brew install packer
 
 # tldr pages - Simplified and community-driven man pages
 brew tap tldr-pages/tldr
@@ -115,6 +117,12 @@ brew install mysql
 # Java development stuff
 brew install tomcat
 brew install maven
+
+# Cask
+brew install caskroom/cask/brew-cask
+
+# Chef
+brew cask install chefdk
 
 # Remove outdated versions from the cellar.
 brew cleanup
