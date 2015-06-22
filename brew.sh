@@ -113,6 +113,7 @@ brew install selenium-server-standalone
 brew install phantomjs
 brew install casperjs
 brew install mysql
+brew install liquibase
 
 # Java development stuff
 brew install tomcat
