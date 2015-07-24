@@ -118,6 +118,7 @@ brew install liquibase
 # Java development stuff
 brew install tomcat
 brew install maven
+brew install scala
 
 # Cask
 brew install caskroom/cask/brew-cask
