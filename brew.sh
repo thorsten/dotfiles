@@ -31,6 +31,9 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion
 
+# Install Brew services
+brew tap homebrew/services
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -114,6 +117,7 @@ brew install phantomjs
 brew install casperjs
 brew install mysql
 brew install liquibase
+brew install mycli
 
 # Java development stuff
 brew install tomcat
