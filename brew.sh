@@ -24,7 +24,7 @@ brew install gnu-sed --with-default-names
 # running `chsh`.
 brew install bash
 brew tap homebrew/versions
-brew install bash-completion2
+brew install bash-completion
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
@@ -85,7 +85,7 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
+brew install homebrew/x11/xpdf
 brew install xz
 
 # Install other useful binaries.
@@ -125,7 +125,6 @@ brew tap tldr-pages/tldr
 brew install tldr
 
 ## Web development stuff
-brew install selenium-server-standalone
 brew install phantomjs
 brew install casperjs
 brew install mysql
