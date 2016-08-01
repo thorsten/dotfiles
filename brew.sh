@@ -49,7 +49,7 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php56 --with-gmp
+brew install homebrew/php/php70 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -64,7 +64,6 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
 brew install bfg
 brew install binutils
 brew install binwalk
