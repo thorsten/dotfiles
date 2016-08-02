@@ -51,6 +51,10 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php70 --with-gmp
 
+# Cask
+brew install caskroom/cask/brew-cask
+brew cask install xquartz
+
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
@@ -135,9 +139,6 @@ brew install mycli
 brew install tomcat
 brew install maven
 brew install scala
-
-# Cask
-brew install caskroom/cask/brew-cask
 
 # Chef
 brew cask install chefdk
